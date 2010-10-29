@@ -1,0 +1,35 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Rialoom :: Guest list demo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  </head>
+  <body>
+
+    <!-- guest list manager view -->
+    <div class="guest-list-manager" >
+        <form action=""  name="input">
+            Guest:
+            <input type="text" name="user" />
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+      
+    <!-- guest list view -->
+    <div class="guest-list" ></div>
+
+    <!-- add jquery framework -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <!-- add rialoom framework -->
+    <script type="text/javascript" src="Rialoom.min.js"></script>
+    <!-- add concrete context related classes -->
+    <script type="text/javascript" src="events/GuestListEvent.js"></script>
+    <script type="text/javascript" src="models/GuestListData.js"></script>
+    <script type="text/javascript" src="views/ManagerViewMediator.js"></script>
+    <script type="text/javascript" src="views/GuestListViewMediator.js"></script>
+    <script type="text/javascript" src="GuestListContext.js"></script>
+    <!-- instantiate context instance -->
+    <script type="text/javascript" src="initGuestListContext.js"></script>
+
+  </body>
+</html>
